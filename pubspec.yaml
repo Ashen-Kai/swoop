@@ -1,0 +1,26 @@
+name: swoop
+description: "Swoop — A marketplace for surplus materials. Find what you need. Spend less. Waste less."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  flutter_staggered_grid_view: ^0.7.0
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
